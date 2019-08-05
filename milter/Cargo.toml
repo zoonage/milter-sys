@@ -1,0 +1,8 @@
+[package]
+name = "milter"
+version = "0.0.0"
+authors =  ["Aaron George <aarongeorge@me.com>"]
+edition = "2018"
+
+[dependencies]
+milter-sys = { path = "../milter-sys", version = "0.0.0" }

@@ -1,0 +1,9 @@
+[package]
+name = "milter-sys"
+version = "0.0.0"
+authors = ["Aaron George <aarongeorge@me.com>"]
+edition = "2018"
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0.51.0"
